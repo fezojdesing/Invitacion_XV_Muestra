@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#061426">
+  <meta name="description" content="Invitación digital de XV años de Fernanda.">
+  <title>Fernanda · Mis XV Años</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=DM+Sans:wght@300;400;500;600&family=Italianno&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="#inicio" class="brand" aria-label="Volver al inicio">F</a>
+    <button class="music" id="musicToggle" type="button" aria-label="Reproducir música" aria-pressed="false">
+      <span class="bars" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span id="musicText">MÚSICA</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <img src="hero.webp" class="heroImg" alt="Fernanda en su vestido de XV años">
+      <div class="heroVeil"></div>
+      <div class="frame"></div>
+      <div class="heroContent reveal visible">
+        <span>MIS XV AÑOS</span>
+        <h1>Fernanda</h1>
+        <div class="date"><b></b>28 · MARZO · 2026<b></b></div>
+        <p>DESLIZA <strong>↓</strong></p>
+      </div>
+    </section>
+
+    <section class="paper section">
+      <small class="num">01</small>
+      <p class="gold">UNA CELEBRACIÓN LLENA DE AMOR</p>
+      <div class="star">✦</div>
+      <div class="card reveal">
+        <p class="intro">Con la bendición de Dios<br>y en compañía de mis padres<br>y padrinos</p>
+        <label>MIS PADRES</label>
+        <h2>Sr. Mario Giron Romero<br>Sra. Aracely Moranchel Bautista</h2>
+        <hr>
+        <label>MIS PADRINOS</label>
+        <h2>Sr. Marco Antonio Sanchez Peña<br>Sra. Maria Isabel Trujillo Alquisira</h2>
+        <p class="invite">Nos complace invitarle a ser<br>parte de este gran día.</p>
+      </div>
+    </section>
+
+    <section class="photo">
+      <img src="hero-2.webp" class="parallax" alt="Fernanda">
+      <div><small>UNA NOCHE</small><strong>PARA RECORDAR</strong></div>
+    </section>
+
+    <section class="paper section locations">
+      <small class="num">02</small>
+      <p class="gold">LUGAR Y HORA</p>
+      <h2 class="title">Dos momentos,<br>un mismo día.</h2>
+
+      <article class="place reveal">
+        <button class="placeImageWrap" type="button" aria-label="Ver detalle de la ceremonia">
+          <img src="church.webp" alt="Parroquia de San Juan Bautista">
+          <span class="imageHint">VER DETALLE <b>↗</b></span>
+        </button>
+        <div>
+          <small>01 · CEREMONIA RELIGIOSA</small>
+          <h3>Parroquia de San Juan Bautista</h3>
+          <time>15:00 <i>HRS</i></time>
+          <p>Plaza Principal, Niños Héroes s/n,<br>Calvario · Sultepec, Méx.</p>
+          <a class="mapLink" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=Parroquia%20de%20San%20Juan%20Bautista%2C%20Sultepec%2C%20Estado%20de%20Mexico">VER UBICACIÓN ↗</a>
+        </div>
+      </article>
+
+      <article class="place reveal">
+        <button class="placeImageWrap" type="button" aria-label="Ver detalle de la recepción">
+          <img src="venue.webp" alt="Salón de Eventos Fiesta Real">
+          <span class="imageHint">VER DETALLE <b>↗</b></span>
+        </button>
+        <div>
+          <small>02 · RECEPCIÓN</small>
+          <h3>Salón de Eventos “Fiesta Real”</h3>
+          <time>16:30 <i>HRS</i></time>
+          <p>Cam. Nacional 407,<br>Sultepec, Méx.</p>
+          <a class="mapLink" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=Salon%20de%20Eventos%20Fiesta%20Real%2C%20Cam.%20Nacional%20407%2C%20Sultepec%2C%20Estado%20de%20Mexico">VER UBICACIÓN ↗</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="timeline">
+      <div class="timelineHero">
+        <img src="lake.webp" class="parallax" alt="Fernanda junto al lago">
+        <div><small>03 · LA CELEBRACIÓN</small><h2>Te compartimos<br>los detalles.</h2></div>
+      </div>
+      <div class="events">
+        <span class="line"></span>
+        <article class="reveal"><b>15:00</b><h3>Celebración Religiosa</h3></article>
+        <article class="reveal"><b>16:30</b><h3>Recepción</h3></article>
+        <article class="reveal"><b>17:00</b><h3>Comida</h3></article>
+        <article class="reveal"><b>19:00</b><h3>Vals</h3></article>
+        <article class="reveal"><b>20:00</b><h3>Pastel</h3></article>
+        <article class="reveal"><b>20:30</b><h3>¡A bailar!</h3></article>
+      </div>
+    </section>
+
+    <section class="paper section gift">
+      <small class="num">04</small>
+      <p class="gold">UN DETALLE</p>
+      <h2 class="title">Tu compañía<br>es mi mejor regalo.</h2>
+      <p>Si tienes la intención de hacerme un obsequio,<br>encontrarás un buzón de sobres el día del evento.</p>
+
+      <button class="envelope" id="envelope" type="button" aria-label="Abrir sobre de regalos" aria-expanded="false">
+        <span class="envelope__letter" aria-hidden="true">
+          <em>CON CARIÑO</em>
+          <strong>Tu presencia<br>es el mejor regalo.</strong>
+        </span>
+        <span class="envelope__body" aria-hidden="true"></span>
+        <span class="envelope__pocket" aria-hidden="true"></span>
+        <span class="envelope__flap" aria-hidden="true"></span>
+        <span class="envelope__seal" aria-hidden="true">F</span>
+      </button>
+      <small class="hint" id="envelopeHint">TOCA EL SOBRE</small>
+
+      <div class="message" id="message" aria-hidden="true">
+        <small>CON CARIÑO</small>
+        <p>Gracias por formar parte de este día tan especial.</p>
+      </div>
+    </section>
+
+    <section class="closing">
+      <img src="final.webp" alt="Fernanda">
+      <div class="closingVeil"></div>
+      <div class="closingContent reveal">
+        <small>----</small>
+        <div class="star">✦</div>
+        <h2>Gracias por<br>acompañarme en este<br>día tan especial</h2>
+        <hr>
+        <div class="signature">Fernanda</div>
+        <p>Te invito a celebrar el inicio de una nueva etapa en mi vida,<br>llena de sueños, metas y grandes logros.</p>
+        <b>28 · 03 · 2026</b>
+      </div>
+      <footer class="brandFooter">
+        <img src="fezoj-logo.png" alt="fezoj">
+        <a class="brandFooterEmail" href="mailto:fezojdesing@gmail.com">fezojdesing@gmail.com</a>
+      </footer>
+    </section>
+  </main>
+
+  <div class="youtubeAudio" id="youtubeAudio" aria-hidden="true"></div>
+
+  <script src="./script.js"></script>
+  <script src="https://www.youtube.com/iframe_api"></script>
+</body>
+</html>
